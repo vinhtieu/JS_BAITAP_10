@@ -24,11 +24,11 @@ export default class ImgPreview extends Component {
         className=" w-100">
         <figure
           style={{
-            width: "228px",
+            width: "178px",
             marginInline: "auto",
             zIndex: "10",
             position: "absolute",
-            top: "127px",
+            top: "103px",
             left: "50%",
             transform: "translateX(-50%)",
           }}>
@@ -45,14 +45,14 @@ export default class ImgPreview extends Component {
         </figure>
         <figure
           style={{
-            height: "100%",
+            height: "400px",
           }}>
           <img
             style={{
               objectFit: "cover",
               objectPosition: "center",
               width: "100%",
-              maxHeight: "100%",
+              height: "100%",
             }}
             src={"./glassesImage/model.jpg"}
             alt=""
